@@ -71,21 +71,36 @@ The case that serious people, in serious institutions, took this as established.
 much of it is rebuttals citing the paper in order to argue with it. Leading with
 a big number invites exactly the dismantling we're performing on someone else.
 
-Instead, evidence of *institutional uptake*, in ascending order of how damning:
+Instead, evidence of *institutional uptake*. Order is deliberate:
 
-1. **Press amplification.** The 2016 cycle. The "third leading cause of death"
+1. **The paper.** Makary & Daniel, *BMJ*, 3 May 2016. The anchor — this is the
+   version readers recognize, and it stays the center of gravity.
+2. **Press amplification.** The 2016 cycle. The "third leading cause of death"
    framing was engineered — that phrasing doesn't fall out of the analysis, it
    was chosen. `[VERIFY — the BMJ / Johns Hopkins press release text.]`
-2. **Named institutional endorsement.** Specific high-impact journals, societies,
+3. **The Senate hearing.** Introduced here as the depth marker: a US Senate
+   subcommittee with the number in the title of an official proceeding, its
+   chairman opening by calling medical error the third leading cause of death.
+
+   > ### ⚑ The reversal
+   >
+   > A reader arriving here assumes the hearing *followed* from the paper. That
+   > is the natural causal reading and we should let them hold it for a beat.
+   >
+   > **Then give the date: 17 July 2014. Two years earlier.**
+   >
+   > The belief was already institutionalised. The paper didn't create it — it
+   > supplied a citation for a conclusion that was waiting for one. Withhold the
+   > date until the paragraph turns; the chronology carries the argument without
+   > us having to make it.
+
+4. **Named institutional endorsement.** Specific high-impact journals, societies,
    and organizations that repeated it *as fact* in their own editorial voice.
    Named actors beat aggregate counts.
-3. **Policy and agency use.** Congressional testimony, federal agency documents,
-   CMS/AHRQ materials. Evidence it shaped decisions, not just discourse.
-4. **Training materials.** Textbooks, board review, med school and residency
+5. **Training materials.** Textbooks, board review, med school and residency
    curricula. The most damning: the claim stopped being something physicians
-   evaluate and became something they are *examined on*. This is also the direct
-   handoff to Act III — if you were tested on it, of course you never appraised
-   it.
+   evaluate and became something they are *examined on*. Direct handoff to
+   Act III — if you were tested on it, of course you never appraised it.
 
 > **Visual: the wall of receipts.** Verbatim quotes, each with source and link,
 > filterable by venue type (press / journal / policy / curriculum). Qualitative
@@ -192,6 +207,16 @@ substantially smaller, and life-years is the better unit. `[VERIFY]`
 
 The more original half. Physicians are trained in exactly the skills that should
 have caught this.
+
+**Revised thesis after verification pass 1.** This is not "nobody checked."
+Hayward & Hofer published the counterfactual argument in *JAMA* in 2001 — fifteen
+years before Makary, in a top-five journal — and the headline number went *up*
+afterward. And the Senate was asserting the third-leading-cause framing in 2014,
+before the paper that supposedly established it.
+
+So the real question is sharper and more uncomfortable: **why does a correct,
+prominently published correction fail to move a belief that institutions have
+already committed to?** The paper didn't create the belief. It ratified one.
 
 - **Citation laundering.** Almost nobody repeating the figure has opened the four
   underlying studies. The 1999 IOM report's 44k–98k had already done the same
