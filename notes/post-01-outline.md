@@ -24,52 +24,77 @@ So: **claim → trajectory → derivation → failures → sociology.**
 
 ## Act I — How it became true
 
-### §1. Cold open: the claim, in its own words
+### §1. Cold open: a plane crashes every day
 
-State it exactly as a reader has encountered it. Not paraphrased — verbatim, from
-several sources at once, so the reader recognizes at least one of them. A slide,
-an editorial, a hearing transcript, a textbook.
+Do not argue. Do not hedge. **Show the claim at full strength**, in the imagery
+its own advocates chose.
 
-No visual. Just the wall of quotes and the sentence: *this is one of the most
-widely repeated facts in modern medicine.*
+> **Visual (flagship, interactive): a year of crashes.**
+> A calendar year plays out on a scrubbable timeline. Each day, aircraft
+> silhouettes fall and accumulate; a death counter climbs toward 251,454. By
+> December the field is dense with 600+ aircraft. The reader can scrub, pause,
+> and sit inside the scale.
+>
+> Design intent: the reader should finish this section *convinced and angry*. If
+> they don't feel the weight here, nothing later has anything to push against.
 
-### §2. The trajectory — **the load-bearing section**
+**Then the historical note.** The analogy predates the number. It was coined in
+the *To Err Is Human* era against the IOM's 98,000 — about 268 deaths a day,
+roughly one fully loaded jumbo jet. When 251,454 arrived in 2016, the imagery was
+inherited and quietly rescaled to ~689/day, closer to two aircraft. The rhetoric
+survived a wholesale change in the underlying number. `[VERIFY — origin and
+earliest attributable use of the aviation comparison; exact IOM-era phrasing.]`
+
+**And the substantive point:** the comparison was never purely rhetorical.
+Patient safety consciously modeled itself on aviation — checklists, crew resource
+management, root-cause analysis, no-fault incident reporting. Invoking planes was
+an argument about which discipline medicine should imitate.
+
+> ### ⚑ Structural keystone — the callback
+>
+> The analogy smuggles in an assumption: **plane crash victims are healthy people
+> with full lives ahead of them.** That assumption is exactly what fails in §6.
+>
+> So this animation is not decoration — it is a setup we detonate later. In §6 we
+> replay the identical visual with each aircraft scaled by *actual life-years
+> lost*, and the sky empties out. Cold open and counterfactual argument become
+> the same image, seen twice.
+>
+> **Build these two as one component with a mode flag.** The payoff depends
+> entirely on them being visually identical.
+
+### §2. The trajectory — who believed it
 
 The case that serious people, in serious institutions, took this as established.
-Four kinds of evidence, in ascending order of how damning they are:
 
-1. **Volume and venue.** Total citations, and the tier of journal doing the
-   citing. Makary & Daniel is among the most-cited papers *BMJ* has published,
-   with an Altmetric score in the top handful ever recorded. `[VERIFY — I recall
-   the citation count in the low thousands and an exceptionally high Altmetric,
-   but both need confirming, along with which high-impact journals cite it and
-   in what context.]`
-2. **Press amplification.** The 2016 press cycle. Note that the "third leading
-   cause of death" framing was engineered for it — that phrasing does not fall
-   out of the analysis, it was chosen. `[VERIFY — need the actual BMJ/Johns
-   Hopkins press release text.]`
+**Not a citation count.** Raw citation volume is a weak and attackable measure:
+much of it is rebuttals citing the paper in order to argue with it. Leading with
+a big number invites exactly the dismantling we're performing on someone else.
+
+Instead, evidence of *institutional uptake*, in ascending order of how damning:
+
+1. **Press amplification.** The 2016 cycle. The "third leading cause of death"
+   framing was engineered — that phrasing doesn't fall out of the analysis, it
+   was chosen. `[VERIFY — the BMJ / Johns Hopkins press release text.]`
+2. **Named institutional endorsement.** Specific high-impact journals, societies,
+   and organizations that repeated it *as fact* in their own editorial voice.
+   Named actors beat aggregate counts.
 3. **Policy and agency use.** Congressional testimony, federal agency documents,
    CMS/AHRQ materials. Evidence it shaped decisions, not just discourse.
 4. **Training materials.** Textbooks, board review, med school and residency
-   curricula. The most damning category: it means the claim stopped being
-   something physicians evaluate and became something they are *examined on*.
+   curricula. The most damning: the claim stopped being something physicians
+   evaluate and became something they are *examined on*. This is also the direct
+   handoff to Act III — if you were tested on it, of course you never appraised
+   it.
 
-**Honest caveat we must state plainly:** citation is not endorsement. Some of
-those citations are critical. If we can hand-code a random sample of citing
-papers by stance — endorsing / neutral / critical — we can make a real
-quantitative claim instead of implying one. That analysis would be original;
-nobody appears to have published it. Worth the effort if it's tractable.
-
-> **Visual (flagship, interactive): the diffusion chart.**
-> Cumulative citations over time, 2016 → present, with a second and much flatter
-> curve for the published rebuttal literature. The gap between the two curves
-> *is* the thesis of the whole post, stated once, early, without argument.
-> Annotated with milestone markers — press cycle, first policy citation, first
-> textbook appearance — each one clickable to a verbatim receipt with a link to
-> source.
+> **Visual: the wall of receipts.** Verbatim quotes, each with source and link,
+> filterable by venue type (press / journal / policy / curriculum). Qualitative
+> and concrete. The reader should be able to click any one and land on the
+> original document.
 >
-> Companion component: a **wall of receipts** — verbatim quotes filterable by
-> venue type (journal / press / policy / curriculum). Every one sourced.
+> Possible companion, only if the data supports it honestly: a two-curve chart
+> showing how far the *published rebuttals* travelled versus the original. Framed
+> as reach, not as endorsement.
 
 ### §3. Open the box
 
@@ -128,8 +153,19 @@ weight by remaining life expectancy and the loss shrinks dramatically. `[VERIFY
 Handle carefully: the harm is real. It is simply a different quantity than
 advertised.
 
-> **Visual:** switch the y-axis from deaths to life-years and watch the bar
-> collapse.
+> ### ⚑ Visual (flagship): **the callback — the sky empties**
+>
+> Replay the §1 animation, identical framing, but each aircraft now scaled by
+> *life-years lost* rather than lives lost. The dense December field thins
+> dramatically.
+>
+> This is the emotional peak of Act II and the reason §1 exists in the form it
+> does. Same component as §1 with a mode flag — the two views must be visually
+> identical or the payoff evaporates.
+>
+> **Care required:** the sky must not empty to *nothing*. Real harm remains, and
+> overshooting here hands critics a fair objection. The honest endpoint is
+> "much smaller and differently shaped," not "imaginary."
 
 ### §7. The ranking is a category error
 
@@ -200,11 +236,13 @@ A number too useful to question is a number nobody checks.
 
 | # | Section | Visual | Interactive | Status |
 |---|---------|--------|-------------|--------|
-| 1 | §2 | Diffusion chart — claim vs. rebuttal curves | yes | not started |
+| 1 | §1 | **A year of crashes** — the claim at full strength | yes | next up |
+| 1b | §6 | **The callback** — same component, life-years mode | yes | same build as #1 |
 | 2 | §2 | Wall of receipts | filter only | not started |
 | 3 | §3 | The extrapolation machine | yes | not started |
 | 4 | §4 | Study-era timeline | no | not started |
 | 5 | §5 | You be the reviewer | yes | blocked on sourcing |
-| 6 | §6 | Deaths → life-years axis switch | light | not started |
-| 7 | §7 | CDC ranking, dismantled | light | not started |
-| 8 | §9 | Citation network | yes | not started |
+| 6 | §7 | CDC ranking, dismantled | light | not started |
+| 7 | §9 | Citation network | yes | not started |
+
+Visuals #1 and #1b are **one component with a mode flag**, not two builds.
