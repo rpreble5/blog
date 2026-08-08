@@ -267,6 +267,11 @@ measure different things.
 4. **Earliest use of "third leading cause of death."** Confirmed at July 2014;
    unknown whether it predates that.
 5. **Makary paper's Altmetric score / press-cycle extent.** Unverified.
+5b. **CDC 2013 leading-cause figures.** The extrapolation widget ranks its live
+   number against a list transcribed from memory of NCHS *Deaths: Final Data for
+   2013* (Makary's reference 2). **Not verified.** Marked TODO in
+   `lib/makary-data.ts` and disclosed in the widget's caption. Must be confirmed
+   against the NCHS report before publication.
 6. **Did the hedges survive the press release?** We now have two stripped hedges
    (Leape's "partly," Makary's "if"). The Johns Hopkins press release is the
    likely point where Makary's conditional was dropped. **High-value target** —

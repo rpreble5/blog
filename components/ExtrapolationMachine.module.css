@@ -1,0 +1,463 @@
+.root {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 28px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0 0 20px;
+}
+
+/* ---- hero ---- */
+
+.hero {
+  text-align: center;
+  padding: 8px 0 24px;
+}
+
+.heroValue {
+  font-size: 64px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.heroUnit {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-top: 6px;
+}
+
+.heroRank {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-top: 14px;
+  min-height: 22px;
+}
+
+.rankStrong {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.heroDelta {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- sections ---- */
+
+.section {
+  border-top: 1px solid var(--gridline);
+  padding-top: 20px;
+  margin-top: 4px;
+}
+
+.sectionTitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 4px;
+}
+
+.sectionNote {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin: 0 0 16px;
+}
+
+/* ---- presets ---- */
+
+.presetRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 12px;
+}
+
+.preset {
+  font: inherit;
+  font-size: 12.5px;
+  padding: 6px 11px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+
+.preset:hover {
+  border-color: var(--baseline);
+  color: var(--text-primary);
+}
+
+.presetActive {
+  border-color: var(--text-primary);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.lesson {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  margin: 0;
+  min-height: 40px;
+}
+
+/* ---- study rows ---- */
+
+.study {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--gridline);
+}
+
+.study:last-of-type {
+  border-bottom: none;
+}
+
+.swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.studyHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.studyName {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.studyMeta {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.tag {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 1px 5px;
+  white-space: nowrap;
+}
+
+.sliderRow {
+  display: grid;
+  grid-template-columns: 1fr 74px;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+/*
+ * Explicit track styling. Relying on accent-color alone left the unfilled
+ * portion at the browser default, which rendered inconsistently between rows.
+ * --fill (percent) and --thumb are supplied inline per slider.
+ */
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 16px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(
+    to right,
+    var(--thumb) var(--fill),
+    var(--gridline) var(--fill)
+  );
+}
+
+.slider::-moz-range-track {
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(
+    to right,
+    var(--thumb) var(--fill),
+    var(--gridline) var(--fill)
+  );
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--thumb);
+  border: 2px solid var(--surface-1);
+  margin-top: -5px;
+}
+
+.slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--thumb);
+  border: 2px solid var(--surface-1);
+}
+
+.slider:disabled {
+  cursor: default;
+}
+
+.rateValue {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-primary);
+}
+
+.rateChanged {
+  color: var(--critical);
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.studyNote {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 8px 0 0;
+  line-height: 1.5;
+}
+
+.disabled {
+  opacity: 0.4;
+}
+
+/* ---- weight comparison ---- */
+
+.barBlock {
+  margin-bottom: 18px;
+}
+
+.barLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.barTrack {
+  display: flex;
+  height: 24px;
+  gap: 2px; /* the 2px surface gap between touching segments */
+  border-radius: 4px;
+  overflow: visible;
+}
+
+.segment {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  min-width: 2px;
+  transition: flex-grow 160ms ease-out;
+}
+
+.segment:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.segment:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+/* ---- legend ---- */
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.legendItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.legendSwatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* ---- controls ---- */
+
+.radioRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.radio {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.denomRow {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 12px;
+}
+
+.denomValue {
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- footer ---- */
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  border-top: 1px solid var(--gridline);
+  margin-top: 20px;
+  padding-top: 18px;
+}
+
+.button {
+  font: inherit;
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+.button:hover {
+  border-color: var(--baseline);
+}
+
+.spacer {
+  flex: 1;
+}
+
+.formula {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+/* ---- table view ---- */
+
+.tableWrap {
+  overflow-x: auto;
+  margin-top: 18px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.table th,
+.table td {
+  text-align: right;
+  padding: 7px 8px;
+  border-bottom: 1px solid var(--gridline);
+  white-space: nowrap;
+}
+
+.table th:first-child,
+.table td:first-child {
+  padding-left: 0;
+}
+
+.table th:last-child,
+.table td:last-child {
+  padding-right: 0;
+}
+
+.table th {
+  color: var(--text-muted);
+  font-weight: 600;
+  text-align: right;
+}
+
+.table th:first-child,
+.table td:first-child {
+  text-align: left;
+}
+
+.tableTotal td {
+  font-weight: 600;
+  border-top: 1px solid var(--baseline);
+  border-bottom: none;
+}
+
+@media (max-width: 560px) {
+  .root {
+    padding: 20px 16px;
+  }
+  .heroValue {
+    font-size: 46px;
+  }
+}
