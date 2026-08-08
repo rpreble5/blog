@@ -96,17 +96,114 @@ Three jumbo jets / 2 days = 1.5 aircraft/day; 180,000/365 = 493 deaths/day →
 Strongest single receipt for §2: a government body put the number in the title of
 an official proceeding.
 
-### Makary & Daniel 2016 **[A]** figure / **[C]** methodology
+### Makary & Daniel 2016 — ✅ **VERIFIED FROM PRIMARY SOURCE**
 
-*BMJ* 2016;353:i2139, published 3 May 2016. Figure: **251,454 deaths/yr**.
+*BMJ* 2016;353:i2139, published 3 May 2016. Read directly from the PDF, 2026-08-08.
+All figures below are **[A-primary]** unless noted.
 
-Critics report the derivation pooled four studies covering roughly
-**35,000–36,000 admissions** containing, by one critique's count, **35 actual
-error deaths (2000–2008)**, extrapolated to 251,454. Two of the four sources were
-reportedly never peer reviewed. The piece was an *analysis* article, not primary
-research. **[C] — the 35-death figure comes from a hostile secondary source and
-MUST be confirmed against the paper's own table before we build the
-extrapolation widget on it.**
+#### Table 1, reconstructed
+
+| Study | Dates | Population | Admissions | AE rate % | Lethal AE rate % | % deemed preventable | Deaths | Preventable lethal AE % | Extrapolated |
+|---|---|---|---|---|---|---|---|---|---|
+| HealthGrades | 2000–02 | Medicare | 37,000,000 | 3.1 | 0.7\* | NR | 389,576 | **0.71** | 251,454 |
+| HHS OIG | 2008 | Medicare | **838** | 13.5 | 1.4 | 44 | **12** | **0.62** | 219,579 |
+| Classen et al | 2004 | 3 tertiary hospitals | **795** | 33.2 | 1.1 | **100** | **9** | **1.13** | 400,201 |
+| Landrigan et al | 2002–07 | 10 NC hospitals | **2,341** | 18.1 | 0.6 | 63 | **14** | **0.38** | 134,581 |
+| **Point estimate** | 2000–08 | — | — | — | — | — | — | **0.71** | **251,454** |
+
+\* "All were considered preventable." † 2013 US admissions = **35,416,020** (AHA).
+
+#### 🔴 The entire derivation, in two steps
+
+**Step 1 — a simple unweighted arithmetic mean of four percentages:**
+
+```
+(0.71 + 0.62 + 1.13 + 0.38) / 4  =  2.84 / 4  =  0.71
+```
+
+**Step 2 — multiply by total US admissions:**
+
+```
+0.0071 × 35,416,020  =  251,453.7  →  251,454
+```
+
+Both reproduce **exactly**. That is the whole method.
+
+#### Why this is worse than the critics said
+
+1. **Unweighted.** A study of **795 admissions carries identical weight to one of
+   37,000,000.** No sample-size weighting, no confidence interval, no
+   heterogeneity test. This is the single cleanest kill in the entire post and it
+   requires no statistical background to feel.
+2. **The 35 deaths are confirmed.** The three chart-review studies contain
+   **12 + 9 + 14 = 35 deaths across 838 + 795 + 2,341 = 3,974 admissions** — and
+   they supply **three quarters of the weight** in the average.
+3. **The adverse-event rates span more than tenfold** — 3.1%, 13.5%, 33.2%, 18.1%.
+   Four studies that disagree by an order of magnitude on how often adverse events
+   happen at all are not measuring the same construct. Pooling them is not
+   defensible even before the weighting problem.
+4. **Classen: 100% of lethal adverse events deemed preventable.** Every one. That
+   single row produces the highest extrapolation (400,201) and gets a full quarter
+   of the weight.
+
+#### 🔑 The hedge that got stripped — a repeating pattern
+
+The paper's own **Summary points** box reads:
+
+> "**If medical error was a disease**, it would rank as the third leading cause of
+> death in the US"
+
+The conditional is *right there*, authored by Makary and Daniel. Medical error is
+not a disease, and they knew it — that clause is the category error being
+explicitly acknowledged. The world dropped the "if."
+
+This is the **second confirmed instance of the same phenomenon**:
+
+| Source | Original, hedged | What travelled |
+|---|---|---|
+| Leape 1994 | "die each year **partly as a result of** iatrogenic injury" | 180,000 killed by medical error |
+| Makary 2016 | "**If medical error was a disease**, it would rank third" | Medical error is the third leading cause of death |
+
+**Neither author overclaimed in the way they are accused of.** The claim was
+inflated *in transmission*, by readers, press, and institutions. That is a far
+more interesting and more defensible Act III than "two researchers were sloppy,"
+and it's now evidenced twice from primary text.
+
+#### Corrections to earlier assumptions
+
+- **It WAS peer reviewed.** Provenance statement: *"Not commissioned; externally
+  peer reviewed."* Our earlier note that it wasn't is wrong and must not survive
+  into the post. It was an *Analysis* article — not primary research — but it went
+  through external review.
+- The authors **explicitly concede** the limitation: *"the assumptions made in
+  extrapolating study data to the broader US population may limit the accuracy of
+  our figure."* They also state they believe the figure **understates** the truth.
+- Two of the four sources are a **commercial report (HealthGrades)** and a
+  **government report (HHS OIG)** — not peer-reviewed studies. The critics'
+  "never vetted through peer review" charge refers to these, and is fair.
+
+#### ⚠ Unresolved internal inconsistency
+
+The HealthGrades row does not reconcile with itself or with the paper's body text:
+
+- Table: 389,576 deaths / 37,000,000 admissions = **1.05%**, but the row reports **0.71%**
+- Body text: HealthGrades "estimated that 575 000 deaths were caused by medical
+  error between 2000 and 2002, which is about **195 000 deaths a year**"
+- Neither 575,000 nor 195,000/yr obviously produces 389,576 or 0.71%
+
+**Needs the HealthGrades primary report to resolve.** If this is a genuine error in
+the table, it affects the row supplying a quarter of the point estimate.
+
+#### Other primary details
+
+- CDC comparison used *Deaths: final data for 2013* (NCHS).
+- Cites **Leape 1993** (*Qual Rev Bull* 19:144–9) arguing **78% rather than 51%**
+  of 180,000 iatrogenic deaths were preventable → ~140,400.
+- Makary is described as "developer of the operating room checklist, the precursor
+  to the WHO surgery checklist." Competing interests: none declared.
+- The article "arose from discussions about the paucity of funding available to
+  support quality and safety research relative to other causes of death." **That is
+  a stated motive for the comparison-to-CDC-rankings framing** — worth quoting.
 
 Makary & Daniel also wrote to the CDC requesting that medical error be added to
 cause-of-death rankings and that death certificates be changed. **No official
@@ -158,20 +255,30 @@ measure different things.
 
 ## Open discrepancies to resolve
 
-1. **James 2013: 400,000 or 440,000?** The paper reportedly states 210,000–400,000,
-   but 440,000 is what circulated publicly and what the Senate chairman cited.
-   If the number grew by 40,000 in transit, **that is a documented instance of the
-   post's thesis** and deserves a callout. Needs the primary paper.
-2. **Makary's 35 deaths.** Hostile-source figure. Must confirm from the paper's
-   own table.
-3. **HealthGrades 2004 (~195,000).** Unverified.
+1. **James 2013: 400,000 or 440,000?** Makary's own text cites James as
+   **210,000–400,000** — so 400,000 is the paper's reading. But **440,000** is what
+   circulated publicly and what the Senate chairman cited in 2014. If the number
+   gained 40,000 in transit, **that is a third documented instance of the post's
+   thesis.** Needs the James primary paper.
+2. ~~**Makary's 35 deaths.**~~ ✅ **CONFIRMED from Table 1: 12 + 9 + 14 = 35 deaths
+   across 3,974 admissions.**
+3. **HealthGrades row inconsistency** (see above). Needs the 2004 HealthGrades
+   report — the reference in Makary is a providersedge.com PDF.
 4. **Earliest use of "third leading cause of death."** Confirmed at July 2014;
    unknown whether it predates that.
 5. **Makary paper's Altmetric score / press-cycle extent.** Unverified.
+6. **Did the hedges survive the press release?** We now have two stripped hedges
+   (Leape's "partly," Makary's "if"). The Johns Hopkins press release is the
+   likely point where Makary's conditional was dropped. **High-value target** —
+   if the release itself dropped the "if," that pins the transmission failure to
+   a specific document.
 
-## Blocked sources — retrieve when policy permits
+## Sources still needed
 
-- `govinfo.gov/content/pkg/CHRG-113shrg88894` — Senate transcript (highest value)
-- `jamanetwork.com/journals/jama/fullarticle/194039` — Hayward & Hofer
-- `journals.lww.com` — James 2013
-- `bmj.com/content/353/bmj.i2139` — Makary & Daniel primary
+- `govinfo.gov/content/pkg/CHRG-113shrg88894` — Senate transcript (highest value;
+  blocked by egress policy)
+- `jamanetwork.com/journals/jama/fullarticle/194039` — Hayward & Hofer (blocked)
+- `journals.lww.com` — James 2013 (blocked)
+- Johns Hopkins / *BMJ* press release, May 2016 — not yet located
+- HealthGrades 2004 report — providersedge.com PDF, per Makary ref 11
+- ~~`bmj.com/content/353/bmj.i2139`~~ ✅ **obtained and read 2026-08-08**
